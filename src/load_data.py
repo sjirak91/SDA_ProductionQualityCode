@@ -13,7 +13,7 @@ def load_iris_data():
 
     os.makedirs("data", exist_ok=True)
 
-    csv_path = "data/iris.csv"
+    csv_path = "data/raw/iris.csv"
     df.to_csv(csv_path, index=False)
 
     print(f"Data saved to {csv_path}")
